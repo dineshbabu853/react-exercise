@@ -1,38 +1,38 @@
+/* TODO: Add css for the application, use classnames instead of ids */
 .App {
+  width: 300px;
+  margin: 0 auto;
   text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+ background-color: rgb(236, 229, 229);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{ 
+	color: #4d4d4d;
+	font-size: 24px;
+	padding: 20px 0 20px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h4{
+    font-size: 15px;
+    color: #4d4d4d;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+input{
+    width: 100%;
+	padding: 15px;
+	border: 1px solid #dddddd;
+	margin-bottom: 15px;
+	box-sizing:border-box;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+    width: 100%;
+    padding: 15px;
+	background-color: #535b63;
+	border: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-weight: bold;
+	color: #ffffff;
 }
